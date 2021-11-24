@@ -7,5 +7,6 @@ export default {
     return JSON.stringify(state.user.userInfo) !== '{}'
   },
   cssVar: (state) => variables,
-  sideBarOpen: (state) => state.app.sideBarOpened
+  sideBarOpen: (state) => state.app.sideBarOpened,
+  language: (state) => state.app.language
 }

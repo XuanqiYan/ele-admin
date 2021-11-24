@@ -7,10 +7,11 @@
     :className="$store.getters.sideBarOpen ? 'sideClass' : ''"
     v-else
   />
-  <span>{{ title }}</span>
+  <span>{{ getTitle(title) }}</span>
 </template>
 <script setup>
 import { defineProps } from 'vue'
+import { getTitle } from '@/utils/i18n.js'
 
 defineProps({
   title: {

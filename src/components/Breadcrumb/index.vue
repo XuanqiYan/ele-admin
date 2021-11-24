@@ -7,11 +7,11 @@
       >
         <!-- 如果是最后一项 不可以点击-->
         <span v-if="index === breadcrumbData.length - 1" class="no-redirect">
-          {{ item.meta.title }}
+          {{ getTitle(item.meta.title) }}
         </span>
         <!-- 不是最后一项 可以点击-->
         <a v-else class="redirect" @click.prevent="onLinkClick(item)">
-          {{ item.meta.title }}</a
+          {{ getTitle(item.meta.title) }}</a
         >
       </el-breadcrumb-item>
     </transition-group>
@@ -21,6 +21,7 @@
 <script setup>
 import { watch, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { getTitle } from '@/utils/i18n.js'
 // 获取当前的路由
 const route = useRoute()
 const breadcrumbData = ref([])

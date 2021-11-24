@@ -957,6 +957,44 @@
     "cssnano-preset-default" "^4.0.0"
     "postcss" "^7.0.0"
 
+"@intlify/core-base@9.2.0-beta.21":
+  "integrity" "sha512-2yekXPBdFPKIMAnG8UlGP1tu7Dmu3UxW7JT8hazMWL5sNZcKK+EAVHZfvV09kbq+bLuR7h868NSKIyTtDflmqg=="
+  "resolved" "https://registry.npmmirror.com/@intlify/core-base/download/@intlify/core-base-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+  dependencies:
+    "@intlify/devtools-if" "9.2.0-beta.21"
+    "@intlify/message-compiler" "9.2.0-beta.21"
+    "@intlify/shared" "9.2.0-beta.21"
+    "@intlify/vue-devtools" "9.2.0-beta.21"
+
+"@intlify/devtools-if@9.2.0-beta.21":
+  "integrity" "sha512-jq88NyXL7CBjEO/FyFQltGkVhKtpqESjGaaOsN6w4hOWYVpS79uvtLUaDV1GlZn7jD9gAqHRAGAhi/kgTLLwEg=="
+  "resolved" "https://registry.npmmirror.com/@intlify/devtools-if/download/@intlify/devtools-if-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+  dependencies:
+    "@intlify/shared" "9.2.0-beta.21"
+
+"@intlify/message-compiler@9.2.0-beta.21":
+  "integrity" "sha512-Dk84bcd/REMxHCcS8PaWnoimGYZFVoxA5DE46Y4PaF7DSh6o9V2ckjHPE+O6/G9JPHlmH1Bmtl3G28xzP3tAXw=="
+  "resolved" "https://registry.npmmirror.com/@intlify/message-compiler/download/@intlify/message-compiler-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+  dependencies:
+    "@intlify/shared" "9.2.0-beta.21"
+    "source-map" "0.6.1"
+
+"@intlify/shared@9.2.0-beta.21":
+  "integrity" "sha512-A4MgJqraJ30q6nb4FhkbEhSaRzPhBaXFyw31aBQEA2b3/pYKpuRopYB+ouPGKk6A1iL0WE1uZU4Emf+DtsU44w=="
+  "resolved" "https://registry.npmmirror.com/@intlify/shared/download/@intlify/shared-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+
+"@intlify/vue-devtools@9.2.0-beta.21":
+  "integrity" "sha512-DJ0urr98L7gbRBf01RWBl37+xANXqlINDsiGoOL8FDJpYd0VAEbwpFGKvaB14Qhm6PUEBF9vyjiCNeVFppBqBg=="
+  "resolved" "https://registry.npmmirror.com/@intlify/vue-devtools/download/@intlify/vue-devtools-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+  dependencies:
+    "@intlify/core-base" "9.2.0-beta.21"
+    "@intlify/shared" "9.2.0-beta.21"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   "integrity" "sha1-UkryQNGjYFJ7cwR17PoTRKpUDd4="
   "resolved" "https://registry.nlark.com/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz"
@@ -1476,7 +1514,7 @@
   optionalDependencies:
     "prettier" "^1.18.2 || ^2.0.0"
 
-"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.0.0-beta.14":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.0.0-beta.13", "@vue/devtools-api@^6.0.0-beta.14":
   "integrity" "sha512-R2rfiRY+kZugzWh9ZyITaovx+jpU4vgivAEAiz80kvh3yviiTU3CBuGuyWpSwGz9/C7TkSWVM/FtQRGlZ16n8Q=="
   "resolved" "https://registry.npmmirror.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.20.1.tgz?cache=0&sync_timestamp=1636564031997&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fdevtools-api%2Fdownload%2F%40vue%2Fdevtools-api-6.0.0-beta.20.1.tgz"
   "version" "6.0.0-beta.20.1"
@@ -8264,6 +8302,11 @@
   "resolved" "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz"
   "version" "0.6.1"
 
+"source-map@0.6.1":
+  "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
+  "resolved" "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz"
+  "version" "0.6.1"
+
 "sourcemap-codec@^1.4.4":
   "integrity" "sha1-6oBL2UhXQC5pktBaOO8a41qatMQ="
   "resolved" "https://registry.nlark.com/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz"
@@ -9184,6 +9227,16 @@
   "integrity" "sha1-UylVzB6yCKPZkLOp+acFdGV+CPI="
   "resolved" "https://registry.nlark.com/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz"
   "version" "2.3.4"
+
+"vue-i18n@^9.2.0-beta.21":
+  "integrity" "sha512-EoTxCKJj/h1WoYUDq8Y2JMQ+eKfrmh9r61BuFlliDe4rhyM73iPUS/DkoMiIwOTjIKC4ucx3+JA0tEPRd8J3Rg=="
+  "resolved" "https://registry.npmmirror.com/vue-i18n/download/vue-i18n-9.2.0-beta.21.tgz"
+  "version" "9.2.0-beta.21"
+  dependencies:
+    "@intlify/core-base" "9.2.0-beta.21"
+    "@intlify/shared" "9.2.0-beta.21"
+    "@intlify/vue-devtools" "9.2.0-beta.21"
+    "@vue/devtools-api" "^6.0.0-beta.13"
 
 "vue-loader-v16@npm:vue-loader@^16.1.0":
   "integrity" "sha1-1D5nXe9bqTRdbH8FkUwT2GGZcIc="
