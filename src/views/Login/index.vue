@@ -142,7 +142,7 @@ $cursor: #fff;
 
       .el-input {
         height: 47px;
-        width: 85%;
+        width: 80%;
 
         .el-input__inner {
           background: transparent;

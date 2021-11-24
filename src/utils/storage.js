@@ -10,7 +10,6 @@ export const setItem = (key, value) => {
 // 获取数据
 export const getItem = (key) => {
   const value = window.localStorage.getItem(key)
-  // '{"name":'zhangsan'}'   'tokendsadsada'
   try {
     // 是一个对象的字符串
     return JSON.parse(value)
