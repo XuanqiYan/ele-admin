@@ -9,6 +9,9 @@ export const TIME_OUT = 60 * 1000
 
 export const LANGUAGR = 'language'
 
+// 主题色
+export const MYCOLOR = 'theme_color'
+
 // el-color-picker 默认颜色
 export const predefineColors = [
   '#ff4500',
@@ -38,7 +41,8 @@ export const colorMap = {
   '#b3d8ff': 'light-6',
   '#c6e2ff': 'light-7',
   '#d9ecff': 'light-8',
-  '#ecf5ff': 'light-9'
+  '#ecf5ff': 'light-9',
+  '#0d84ff': 'light-3'
 }
 
 export const colorTables = {
@@ -51,9 +55,9 @@ export const colorTables = {
   'light-6': 'color(primary tint(60%))',
   'light-7': 'color(primary tint(70%))',
   'light-8': 'color(primary tint(80%))',
-  'light-9': 'color(primary tint(90%))'
-  // subMenuHover: 'color(primary tint(70%))',
-  // subMenuBg: 'color(primary tint(80%))',
-  // menuHover: 'color(primary tint(90%))',
-  // menuBg: 'color(primary)'
+  'light-9': 'color(primary tint(90%))',
+  subMenuHover: 'color(primary tint(70%))',
+  subMenuBg: 'color(primary tint(80%))',
+  menuHover: 'color(primary tint(90%))',
+  menuBg: 'color(primary)'
 }

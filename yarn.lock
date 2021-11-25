@@ -2144,6 +2144,11 @@
   "resolved" "https://registry.nlark.com/balanced-match/download/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
 
+"balanced-match@0.1.0":
+  "integrity" "sha1-tQS9BYabOSWd0MXvw12EMXbczEo="
+  "resolved" "https://registry.nlark.com/balanced-match/download/balanced-match-0.1.0.tgz"
+  "version" "0.1.0"
+
 "base@^0.11.1":
   "integrity" "sha1-e95c7RRbbVUakNuH+DxVi060io8="
   "resolved" "https://registry.nlark.com/base/download/base-0.11.2.tgz"
@@ -2783,7 +2788,7 @@
     "map-visit" "^1.0.0"
     "object-visit" "^1.0.0"
 
-"color-convert@^1.9.0", "color-convert@^1.9.3":
+"color-convert@^1.3.0", "color-convert@^1.9.0", "color-convert@^1.9.3":
   "integrity" "sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg="
   "resolved" "https://registry.nlark.com/color-convert/download/color-convert-1.9.3.tgz"
   "version" "1.9.3"
@@ -2807,6 +2812,13 @@
   "resolved" "https://registry.nlark.com/color-name/download/color-name-1.1.4.tgz"
   "version" "1.1.4"
 
+"color-string@^0.3.0":
+  "integrity" "sha1-J9RvtnAlxcL6JZk7+/V55HhBuZE="
+  "resolved" "https://registry.nlark.com/color-string/download/color-string-0.3.0.tgz"
+  "version" "0.3.0"
+  dependencies:
+    "color-name" "^1.0.0"
+
 "color-string@^1.6.0":
   "integrity" "sha1-w5FfYf4mdnLLfh4GTJ1pIhn2wxI="
   "resolved" "https://registry.nlark.com/color-string/download/color-string-1.6.0.tgz"
@@ -2814,6 +2826,15 @@
   dependencies:
     "color-name" "^1.0.0"
     "simple-swizzle" "^0.2.2"
+
+"color@^0.11.0":
+  "integrity" "sha1-bXtcdPtl6EHNSHkq0e1eB7kE12Q="
+  "resolved" "https://registry.nlark.com/color/download/color-0.11.4.tgz"
+  "version" "0.11.4"
+  dependencies:
+    "clone" "^1.0.2"
+    "color-convert" "^1.3.0"
+    "color-string" "^0.3.0"
 
 "color@^3.0.0":
   "integrity" "sha1-NUTcGYyvRJDD7MmnkLVP6f9F4WQ="
@@ -3096,6 +3117,16 @@
     "randombytes" "^2.0.0"
     "randomfill" "^1.0.3"
 
+"css-color-function@^1.3.3":
+  "integrity" "sha1-jtJMLAIFBzM5+voAS8jBQfzLKC4="
+  "resolved" "https://registry.npm.taobao.org/css-color-function/download/css-color-function-1.3.3.tgz"
+  "version" "1.3.3"
+  dependencies:
+    "balanced-match" "0.1.0"
+    "color" "^0.11.0"
+    "debug" "^3.1.0"
+    "rgb" "~0.1.0"
+
 "css-color-names@^0.0.4", "css-color-names@0.0.4":
   "integrity" "sha1-gIrcLnnPhHOAabZGyyDsJ762KeA="
   "resolved" "https://registry.nlark.com/css-color-names/download/css-color-names-0.0.4.tgz"
@@ -3314,6 +3345,13 @@
   "version" "2.6.9"
   dependencies:
     "ms" "2.0.0"
+
+"debug@^3.1.0":
+  "integrity" "sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o="
+  "resolved" "https://registry.npmmirror.com/debug/download/debug-3.2.7.tgz"
+  "version" "3.2.7"
+  dependencies:
+    "ms" "^2.1.1"
 
 "debug@^3.1.1":
   "integrity" "sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o="
@@ -7840,10 +7878,20 @@
   "resolved" "https://registry.nlark.com/retry/download/retry-0.12.0.tgz"
   "version" "0.12.0"
 
+"rgb-hex@^4.0.0":
+  "integrity" "sha1-AvseIV4/5dBwUBV5o9Lk+jwKzsg="
+  "resolved" "https://registry.nlark.com/rgb-hex/download/rgb-hex-4.0.0.tgz"
+  "version" "4.0.0"
+
 "rgb-regex@^1.0.1":
   "integrity" "sha1-wODWiC3w4jviVKR16O3UGRX+rrE="
   "resolved" "https://registry.nlark.com/rgb-regex/download/rgb-regex-1.0.1.tgz"
   "version" "1.0.1"
+
+"rgb@~0.1.0":
+  "integrity" "sha1-vieykej+/+rBvZlylyG/pA/AN7U="
+  "resolved" "https://registry.npm.taobao.org/rgb/download/rgb-0.1.0.tgz"
+  "version" "0.1.0"
 
 "rgba-regex@^1.0.0":
   "integrity" "sha1-QzdOLiyglosO8VI0YLfXMP8i7rM="
